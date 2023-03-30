@@ -1,0 +1,56 @@
+
+.footer-section{
+    background-color: rgb(30, 27, 27);
+    
+}
+.sub-sections{
+    color:white;
+    font-size: 15px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 3%;
+    /* padding-bottom: 2%; */
+    text-align: center;
+    height: 30vh;
+    
+}
+.sub-sections h1{
+    font-size: 20px;
+}
+.about-section a{
+    text-decoration: none;
+    color: azure;
+}
+.help-section a{
+    text-decoration: none;
+    color: azure;
+}
+.social-section a{
+    text-decoration: none;
+    color: azure;
+}
+.address-section a{
+    text-decoration: none;
+    color: azure;
+}
+.sub-footer{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    
+}
+.sub-footer a{
+    /* color: rgb(41, 210, 210); */
+    text-decoration: none;
+    /* font-style: italic; */
+    /* font-size: 20px; */
+    
+}
+.sub-footer p{
+    color: rgb(35, 173, 214);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
