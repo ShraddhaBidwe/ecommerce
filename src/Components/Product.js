@@ -1,5 +1,7 @@
 import React from "react";
 import Sections from "./Sections";
+import Allproduct from "./Allproduct";
+import { Link } from "react-router-dom";
 const Product = () => {
   const electronic_images = [
     {
@@ -334,10 +336,10 @@ const Product = () => {
   const Fashion = [
     {
       desc: "Best of Fashion",
-      url: "https://seeklogo.com/images/F/fashion-logo-97D0B0C702-seeklogo.com.png",
+      url: "https://png.pngtree.com/element_our/png_detail/20181207/creative-electronics-icon-background-png_263987.jpg",
     },
   ];
-
+// https://seeklogo.com/images/F/fashion-logo-97D0B0C702-seeklogo.com.png
   const Electronic = [
     {
       desc: "Best of Electronic",
@@ -375,7 +377,7 @@ const Product = () => {
       <Sections images={grocery_images} type={Grocery} />
       <Sections images={home_images} type={Home}/>
       <Sections images={books_images} type={Books}/>
-      
+     {/* <Allproduct allprod={fashion_images}/> */}
     </div>
   );
 };

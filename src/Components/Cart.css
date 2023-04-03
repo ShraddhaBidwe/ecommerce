@@ -17,7 +17,7 @@
    
 }
 .backarrow{
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px;
 }
 .header  h4{
@@ -25,11 +25,12 @@
     text-decoration: none;
     color: black; 
     margin-left: 30px;
+    font-size: 20px;
     
 
 }
 .cart-icon {
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 50px;
 
 }
@@ -41,6 +42,9 @@
     height: 80vh; 
     padding-top: 3%;   
 
+}
+.cart-section h2{
+    font-size: 30px;
 }
 .shopped-items{
     background: linear-gradient(#fad7d7,#887878);
@@ -77,8 +81,11 @@
     height: 3vh;
     width: 100%;
     border-radius: 5%;
-    color: blue;
+    color: rgb(0, 0, 0);
+    box-sizing: content-box;
+    cursor: pointer;
 }
+
 .total{
     float: right;
     margin-right: 30px;

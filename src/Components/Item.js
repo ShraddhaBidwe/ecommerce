@@ -3,15 +3,17 @@ import { AiOutlinePlus } from 'react-icons/ai';
 import { AiOutlineMinus } from 'react-icons/ai';
 import { RiDeleteBin5Fill } from 'react-icons/ri';
 
-const Item = () => {
+const Item = ({src, alt, product, price, desc}) => {
   return (
     <div>
       <div className="product-info">
                     <div className="item-img">
-                        <img src="https://m.media-amazon.com/images/I/41IcuNkyrdL._SX300_SY300_QL70_FMwebp_.jpg" alt="image"/>
+                        <img src={ src} alt="image"/>
                     </div>
                     <div className="item-details">
-                        <h3>Samsung M04</h3>
+                        <h3>{product}</h3>
+                        <h3>{price}</h3>
+                        <h4>{desc}</h4>
                     </div>
                     <div className="quantity">
                         <button><AiOutlineMinus /></button>

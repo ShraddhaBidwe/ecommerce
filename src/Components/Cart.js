@@ -1,5 +1,5 @@
-import React from "react";
-
+import React,{useState} from "react";
+import { data } from "./Data"; 
 import './Cart.css';
 import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
@@ -10,7 +10,8 @@ import { BiArrowBack} from 'react-icons/bi';
 
 const Cart = () => {
 
-    
+    const [item, setItem] = useState(data);
+
 
     return(
         <div className="main-page">
@@ -30,7 +31,12 @@ const Cart = () => {
             <div className="shopped-items">
                 <div className="items-container">
                 <Scrollbars>
-                    <Item />
+                    {
+                        item.map((curItem) => {
+                            return <Item  key={curItem.id} {...curItem}/>
+                        })
+                    }
+                    
                 </Scrollbars>
 
                 </div>
