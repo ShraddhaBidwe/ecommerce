@@ -70,11 +70,16 @@
 
 .quantity input{
     width: 15%;
-    height: 2.5vh;
+    height: 4vh;
     text-align: center;
 }
-.quantity button{
-    width: 10%;
+.subtract-btn{
+    width: 15%;
+    cursor: pointer;
+    
+}
+.addition-btn{
+    width: 15%;
     cursor: pointer;
 }
 .save-later-btn{
@@ -84,6 +89,10 @@
     color: rgb(0, 0, 0);
     box-sizing: content-box;
     cursor: pointer;
+}
+.delete_btn{
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .total{

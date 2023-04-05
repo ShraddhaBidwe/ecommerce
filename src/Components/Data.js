@@ -6,6 +6,7 @@ export const data = [
         product: "Mobile",
         price: "$300",
         desc: "Samsung M04",
+        Quantity:1,
       },
       {
         id:2,
@@ -14,6 +15,7 @@ export const data = [
         product: "Watch",
         price: "$120",
         desc: "Redux Watch",
+        Quantity:1,
       },
       {
         id:3,
@@ -22,6 +24,7 @@ export const data = [
         product: "Earphones",
         price: "$70",
         desc: "Boat earphones",
+        Quantity:1,
       },
       {
         id:4,
@@ -30,6 +33,7 @@ export const data = [
         product: "Charger",
         price: "$50",
         desc: "Apple charger",
+        Quantity:1,
       },
       {
         id:5,
@@ -38,6 +42,7 @@ export const data = [
         product: "Laptop",
         price: "$1000",
         desc: "HP Laptop",
+        Quantity:1,
       },
       {
         id:6,
@@ -46,6 +51,7 @@ export const data = [
         product: "Camera",
         price: "$500",
         desc: "Nikon Camera",
+        Quantity:1,
       },
       {
         id:7,
@@ -54,6 +60,7 @@ export const data = [
         product: "TV",
         price: "$500",
         desc: "Television",
+        Quantity:1,
       },
       {
         id:8,
@@ -62,6 +69,7 @@ export const data = [
         product: "Projector",
         price: "$500",
         desc: "Projector",
+        Quantity:1,
       },
       {
         id:9,
@@ -70,5 +78,6 @@ export const data = [
         product: "Printer",
         price: "$500",
         desc: "Hourse Hold Printer",
+        Quantity:1,
       },
     ];
