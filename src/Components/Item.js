@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { GrFormAdd } from 'react-icons/gr';
 import { GrFormSubtract } from 'react-icons/gr';
 import { RiDeleteBin5Fill } from 'react-icons/ri';
-import {ContextCart} from './Cart';
+import {ContextCart} from '/Cart';
 
 const Item = ({ id, src, alt, product, price, desc, Quantity}) => {
 

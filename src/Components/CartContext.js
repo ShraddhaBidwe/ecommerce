@@ -3,7 +3,7 @@ import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CgShoppingCart } from 'react-icons/cg';
 import { BiArrowBack} from 'react-icons/bi';
-import {ContextCart} from './Cart';
+import {ContextCart} from '/Cart';
 
 const CartContext = () => {
 
