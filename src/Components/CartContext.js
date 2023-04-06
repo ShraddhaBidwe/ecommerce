@@ -3,11 +3,11 @@ import Item from "./Item";
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import { CgShoppingCart } from 'react-icons/cg';
 import { BiArrowBack} from 'react-icons/bi';
-import {ContextCart} from '/Cart';
+import {ContextCart} from './Cart';
 
 const CartContext = () => {
 
-    const {item} = useContext(ContextCart);
+    const {item, totalItem, totalAmount} = useContext(ContextCart);
 
   return (
     <div>
@@ -17,14 +17,16 @@ const CartContext = () => {
             <BiArrowBack className="backarrow" />
             <h4>Continue Shopping</h4>
             </div>
-            <div>
+            <div className="header-cart-icon">
                <CgShoppingCart  className="cart-icon"/>
+               <p>{totalItem}</p>
             </div>
         </div>
         <hr />
         
         <div className="cart-section">
             <h2>Shopping Cart</h2>
+            <p>Total Items in Cart: <span>{totalItem}</span>{" "}</p>
             <div className="shopped-items">
                 <div className="items-container">
                 <Scrollbars>
@@ -40,7 +42,7 @@ const CartContext = () => {
             </div>
         </div>
         <div className="total">
-            <h4>Total Amount : <span>₹10000</span></h4>
+            <h4>Total Amount : <span>₹{totalAmount}</span></h4>
             <button className="place-order-btn"><h2>Place Order</h2></button>
         </div>
         </div>

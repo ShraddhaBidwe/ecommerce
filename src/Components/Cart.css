@@ -29,10 +29,34 @@
     
 
 }
+.header-cart-icon{
+    display: flex;
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+}
 .cart-icon {
-    font-size: 25px;
-    margin-right: 50px;
+    font-size: 30px;
+    margin-right: 20px;
 
+}
+.header-cart-icon p{
+    position:relative;
+    width: 20px;
+    height: 20px; 
+    right: 1.8rem;
+    top: -0.5rem;
+    border-radius: 50%;
+    background: #99cbf7;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
 }
 
 
@@ -96,6 +120,7 @@
 }
 
 .total{
+    position: relative;
     float: right;
     margin-right: 30px;
     padding-bottom: 5%;

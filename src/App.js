@@ -1,7 +1,9 @@
 import React from 'react';
 // import Footer from "./Components/Footer.js";
 import Cart from './Components/Cart.js';
-import { Route, Routes } from 'react-router-dom';
+// import {  Routes } from 'react-router-dom';
+// import SingleProduct from './Components/SingleProduct.js';
+// import Header from './Components/Header.js';
 
 
 
@@ -9,10 +11,14 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className='App'>
-    {/* <Footer/> */}
-    
-        <Cart/>
 
+      {/* <Routes> */}
+    {/* <Footer/> */}
+        {/* <Header /> */}
+        <Cart/>
+        {/* <SingleProduct /> */}
+        {/* <Footer /> */}
+      {/* </Routes> */}
     </div>
   );
 }

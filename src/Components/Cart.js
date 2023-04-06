@@ -1,5 +1,5 @@
-import React,{createContext, useReducer} from "react";
-import { data } from "./Data"; 
+import React,{createContext, useEffect, useReducer} from "react";
+import ProductList from "./ProductList"; 
 import './Cart.css';
 import CartContext from "./CartContext";
 import {reducer } from "./Reducer";
@@ -8,7 +8,7 @@ import {reducer } from "./Reducer";
 export const ContextCart = createContext();
 
 const initialState = {
-    item: data,
+    item: ProductList,
     totalAmount: 0,
     totalItem: 0,
 };
@@ -46,6 +46,12 @@ const decrement =(id) => {
         payload: id,
     });
 };
+
+// UseEffect for updatting the data of the cart icon
+
+useEffect(() => {
+    dispatch({ type: "Get_Total" });
+}, [state.item]);
 
 
     return(
